@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 100%;
+  height: 100vh;
+  background-image: url(./imgs/ilustrasi_masjid.jpg);
+  padding-top: 50px;
+}
+
+select {
+  background-color: yellow;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 16px;
+  font-size: 19px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+select:hover {
+  background-color: rgba(243, 243, 214, 0.814);
+}
+select:active{
+    transform: scale(0.95);
+}
+#container {
+  margin-top: 70px;
+}
+
+#row {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+#boxes {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 25px 10px;
+  background-color: bisque;
+  font-size: 21px;
+  box-shadow: 0 0 15px red;
+}
+
+.date {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  height: 70px;
+  background-color: antiquewhite;
+  padding: 20px;
+  font-size: 27px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+.tasbehBody {
+  border: 1px solid red;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px 0px;
+  background-color: yellowgreen;
+  margin-top: 50px;
+}
+
+.natija {
+  border-radius: 50%;
+  background-color: beige;
+  width: 60px;
+  height: 60px;
+  padding: 15px;
+  margin: 0 auto;
+  font-size: 22px;
+}
+
+.btns {
+  margin-top: 20px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-size: 20px;
+  box-shadow: 0 0 15px red;
+}
+
+button:hover {
+  background-color: rgb(221, 202, 202);
+}
+
+button:active{
+    transform: scale(0.9);
+}
