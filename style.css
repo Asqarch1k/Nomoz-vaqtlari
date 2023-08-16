@@ -61,12 +61,12 @@ select:active{
 }
 
 .tasbehBody {
-  border: 1px solid red;
   width: 500px;
   margin: 0 auto;
   padding: 20px 0px;
   background-color: yellowgreen;
   margin-top: 50px;
+  border-radius: 20px;
 }
 
 .natija {

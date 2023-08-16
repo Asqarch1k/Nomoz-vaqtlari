@@ -99,14 +99,12 @@ hozirgiKun();
 const result = document.querySelector(".result");
 const startBtn = document.querySelector(".startBtn");
 const resetBtn = document.querySelector(".resetBtn");
-
 var count = 0;
 
 function startNumber() {
   count++;
   result.innerHTML = count;
 }
-
 startBtn.addEventListener("click", () => {
   startNumber();
 });
