@@ -3,7 +3,8 @@ const cityName = document.querySelector("#city");
 const time = document.querySelector(".time");
 const days = document.querySelector(".days");
 
-const url = "http://46.101.247.236:8080";
+const url = "http://167.71.202.51:8080";
+
 
 (async () => {
   const row = document.querySelector("#row");
